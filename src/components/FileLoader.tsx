@@ -1,4 +1,5 @@
 import { ChangeEvent } from "react";
+import { TFileLoader } from "../models/components";
 
 const FileLoader = ({ setData }: TFileLoader) => {
   const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
